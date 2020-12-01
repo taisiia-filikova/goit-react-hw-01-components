@@ -1,8 +1,16 @@
+.row {
+  transition: var(--transition);
+}
 .row:nth-child(2n + 1) {
   background-color: var(--blueColor);
 }
 .row:nth-child(2n) {
   background-color: var(--bgColor);
+}
+
+.row:hover,
+.row:focus {
+  transform: scale(1.03);
 }
 .cell {
   padding: 10px 0;
