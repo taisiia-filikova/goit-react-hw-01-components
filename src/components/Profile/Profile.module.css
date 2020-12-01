@@ -36,7 +36,7 @@
 .name {
   margin-top: 15px;
 
-  color: var(--violetColor);
+  color: var(--darkVioletColor);
 
   font-weight: 700;
   font-size: 20px;
@@ -45,13 +45,13 @@
 .tag {
   margin-top: 10px;
 
-  color: var(--bgColor);
+  color: var(--violetColor);
 }
 
 .location {
   margin-top: 10px;
 
-  color: var(--violetColor);
+  color: var(--darkVioletColor);
 }
 
 .stats {
